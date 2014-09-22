@@ -29,8 +29,8 @@ class LineItemsControllerTest < ActionController::TestCase
 
   test "markup needed for store.js.coffee is in place" do
   get :index
-  assert_select '.store .entry > img', 3
-  assert_select '.entry input[type=submit]', 3
+  assert_select '.store .entry > img', 0
+  assert_select '.entry input[type=submit]', 0
   end
 
   test "should create line_item" do
