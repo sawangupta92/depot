@@ -12,6 +12,7 @@
  * 
  *= require_self
  *= require_tree .
+ *= require bootstrap 
  */
 
 /* START_HIGHLIGHT */
@@ -109,4 +110,25 @@ display: none
     }
   }
 }
+
 /* END_HIGHLIGHT */
+.navbar-static-top {
+  margin-bottom:20px;
+}
+
+i {
+  font-size:16px;
+}
+
+.nav > li > a {
+  color:#787878;
+}
+  
+footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#efefef;
+}
+
+/* count indicator near icons */

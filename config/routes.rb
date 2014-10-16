@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'admin' => 'admin#index'
   controller :sessions do
     get 'login' => :new
@@ -10,6 +11,10 @@ Rails.application.routes.draw do
   get 'sessions/create'
 
   get 'sessions/destroy'
+
+  resources :products do
+    resources :ratings, only: [:update, :create, :destroy]
+  end
 
   resources :users
 
