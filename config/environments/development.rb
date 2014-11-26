@@ -42,6 +42,11 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
   config.assets.precompile += %w( products.js )
+  config.action_controller.perform_caching = true
+  config.dependency_loading = true
+  # config.active_record.observers = :product_observer
+  # config.cache_store = :memory_store
+  # config.cache_store = :file_store, "public"
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end

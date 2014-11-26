@@ -13,6 +13,10 @@ class User < ActiveRecord::Base
 
   after_destroy :ensure_an_admin
 
+  def self.sort(collection, column, direction)
+    collection.order(column => direction)    
+  end
+
   private
   
     def ensure_an_admin
