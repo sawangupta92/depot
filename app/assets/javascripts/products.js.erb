@@ -11,7 +11,7 @@ updateRating.prototype.set_request_type = function(element) {
   } else{
     if ($(element).val() == 0){
       _this.rating_id = $(element).attr('id')
-      _this.request_type = 'DELETE' 
+      _this.request_type = 'DELETE'
     } else {
       _this.rating_id = $(element).attr('id')
       _this.request_type = 'PUT'

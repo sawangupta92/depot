@@ -31,7 +31,7 @@ development:
   database: depot_development
   pool: 5
   username: root
-  password: "'"
+  password: l
 test:
   adapter: mysql
   encoding: utf8
@@ -39,7 +39,7 @@ test:
   database: depot_test
   pool: 5
   username: root
-  password: "'"
+  password: l
 
 production:
   adapter: mysql
@@ -48,4 +48,4 @@ production:
   database: depot_production
   pool: 5
   username: root
-  password: "'"
+  password: l

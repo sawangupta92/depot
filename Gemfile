@@ -41,5 +41,9 @@ gem 'byebug'
 gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 gem 'rails-observers'
+gem 'capistrano'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
+gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 

@@ -1,4 +1,4 @@
-class ProductSweeper < ActionController::Caching::Sweeper
+class ProductSweeper < ActionController::Caching::Sweeping::Sweeper
   observe Product
   def after_save(product)
     expire_cache(product)
