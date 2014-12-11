@@ -1,5 +1,3 @@
-set :stage, :production
-set :rails_env, :production
 set :branch, 'f'
 server 'http://54.69.25.58/', user: 'sawan'
 # Simple Role Syntax

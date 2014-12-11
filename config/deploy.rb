@@ -6,6 +6,8 @@ set :repo_url, 'git@github.com:sawangupta92/depot.git'
 set :deploy_to, '/var/www/app/depot'
 set :scm, :git
 set :format, :pretty
+set :sudo, false
+
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
