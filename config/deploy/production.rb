@@ -1,5 +1,5 @@
 set :branch, 'f'
-server 'http://54.69.25.58/', user: 'sawan'
+server '54.69.25.58', user: 'sawan'
 # Simple Role Syntax
 # ==================
 # Supports bulk-adding hosts to roles, the primary server in each group
