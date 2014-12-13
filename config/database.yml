@@ -31,7 +31,7 @@ development:
   database: depot_development
   pool: 5
   username: root
-  password: l
+  password: "'"
 test:
   adapter: mysql
   encoding: utf8
