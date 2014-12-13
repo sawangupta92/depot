@@ -35,7 +35,7 @@ gem 'quiet_assets'
 # gem 'capistrano-rails', group: :development
 
 gem 'byebug'
-gem 'capistrano'
+gem 'capistrano', '3.3.3'
 gem 'capistrano-bundler'
 gem 'capistrano-rails'
 gem 'unicorn'
